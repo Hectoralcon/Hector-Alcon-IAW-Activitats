@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora d'IVA</title>
+    </head>
+    <body>
+        <h2>Calculadora d'IVA</h2>
+        <form action="preu.php" method="get">
+            <label>Preu sense IVA:</label>
+            <input type="number" name="preu">
+            <br>
+            <label>Tipus d'IVA:</label>
+            <select name="iva">
+                <option value="21">General (21%)</option>
+                <option value="10">Reduït (10%)</option>
+                <option value="4">Superreduït (4%)</option>
+            </select>
+            <br>
+            <input type="submit" value="calcular">
+        </form>
+    </body>
+</html>
